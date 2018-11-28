@@ -11,7 +11,7 @@ from mininet.log import setLogLevel
 Single switch connected to n hosts.
 '''
 class SingleSwitchTopo(Topo):
-    def build(self, n = 4):
+    def build(self, n = 2):
         # Add a switch to a topology
         switch = self.addSwitch('s1')
         # Add the host and link to a topology
