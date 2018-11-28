@@ -1,6 +1,7 @@
 
 #!/usr/bin/python   
 
+from mininet.cli import CLI
 from mininet.net import Mininet
 from mininet.topo import Topo
 from mininet.node import OVSController
@@ -60,8 +61,7 @@ def simpleTest():
     # Test connectivity by trying to have all nodes ping each other
     print("Testing network connectivity")
     net.pingAll()
-    # Stop a network
-    net.stop()
+    CLI(net)
 
 '''
 Main (entry point)
