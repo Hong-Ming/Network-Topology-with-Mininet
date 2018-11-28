@@ -11,7 +11,7 @@ from mininet.log import setLogLevel
 
 class mytopo(Topo):
 
-    def build(self):
+    def build(self, n = 2):
         switch1 = self.addSwitch('s1')
         switch2 = self.addSwitch('s2')
         switch3 = self.addSwitch('s3')
