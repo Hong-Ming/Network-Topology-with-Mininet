@@ -30,7 +30,7 @@ class mytopo(Topo):
         host6 = self.addHost('h6')
 
         self.addLink(switch9, switch7, bw = 40, delay = '5ms',  loss = 2)
-        self.addLink(switch9, switch7, bw = 50, delay = '4ms',  loss = 3)
+        self.addLink(switch9, switch8, bw = 50, delay = '4ms',  loss = 3)
 
         self.addLink(switch7, switch1, bw = 23, delay = '1ms',  loss = 8)
         self.addLink(switch7, switch2, bw = 18, delay = '2ms',  loss = 9)
