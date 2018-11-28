@@ -47,12 +47,8 @@ class mytopo(Topo):
         self.addLink(host6, switch6, bw = 3, delay = '5ms', loss = 2)
 
 topo = mytopo()
-    # Create and manage a network with a OvS controller and use TCLink
-net = Mininet(
-    topo = topo, 
-    controller = OVSController,
-    link = TCLink)
+net = Mininet(topo)
 net.start()
-CLI(net)
 dumpNodeConnections(net.hosts)
 dumpNodeConnections(net.switches)
+CLI(net)
