@@ -32,6 +32,7 @@ class mytopo(Topo):
         self.addLink(switch9, switch7, bw = 40, delay = '5ms', loss = 2)
         self.addLink(switch8, switch9, bw = 50, delay = '4ms', loss = 3)
         self.addLink(switch1, switch7, bw = 23, delay = '1ms', loss = 8)
+        self.addLink(switch2, switch7, bw = 18, delay = '2ms', loss = 9)
         self.addLink(switch3, switch7, bw = 15, delay = '3ms', loss = 5)
 
         self.addLink(switch4, switch8, bw = 19, delay = '80us', loss = 7)
