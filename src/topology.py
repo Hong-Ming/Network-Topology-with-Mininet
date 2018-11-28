@@ -52,6 +52,7 @@ net = Mininet(
     topo = topo, 
     controller = OVSController,
     link = TCLink)
+net.start()
 CLI(net)
 dumpNodeConnections(net.hosts)
 dumpNodeConnections(net.switches)
