@@ -11,7 +11,7 @@ from mininet.log import setLogLevel
 
 class mytopo(Topo):
 
-    def build(self, n = 2):
+    def build(self):
         switch1 = self.addSwitch('s1')
         switch2 = self.addSwitch('s2')
         switch3 = self.addSwitch('s3')
@@ -45,30 +45,12 @@ class mytopo(Topo):
         self.addLink(host5, switch5, bw = 15, delay = '30us', loss = 18)
         self.addLink(host6, switch6, bw = 3, delay = '5ms', loss = 2)
 
-'''
-Create and test a simple network
-'''
-def simpleTest():
-    # Create a topology with 2 hosts and 1 switch
-    topo = mytopo()
+topo = mytopo()
     # Create and manage a network with a OvS controller and use TCLink
-    net = Mininet(
-        topo = topo, 
-        controller = OVSController,
-        link = TCLink)
-    # Start a network
-    net.start()
-    # Test connectivity by trying to have all nodes ping each other
-    print("Testing network connectivity")
-    net.pingAll()
-    CLI(net)
-
-'''
-Main (entry point)
-'''
-if __name__ == '__main__':
-    # Tell mininet to print useful information
-    setLogLevel('info')
-    # Create and test a simple network
-    simpleTest()
-
+net = Mininet(
+    topo = topo, 
+    controller = OVSController,
+    link = TCLink)
+CLI(net)
+dumpNodeConnections(net.hosts)
+dumpNodeConnections(net.switches)
