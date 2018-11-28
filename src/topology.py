@@ -47,7 +47,10 @@ class mytopo(Topo):
         self.addLink(host6, switch6, bw = 3, delay = '5ms', loss = 2)
 
 topo = mytopo()
-net = Mininet(topo = topo)
+net = Mininet(
+    topo = topo, 
+    controller = OVSController,
+    link = TCLink)
 net.start()
 dumpNodeConnections(net.hosts)
 dumpNodeConnections(net.switches)
