@@ -1,5 +1,3 @@
-#!/usr/bin/python   
-
 from mininet.cli import CLI
 from mininet.net import Mininet
 from mininet.topo import Topo
