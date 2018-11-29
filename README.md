@@ -37,7 +37,25 @@ In this lab, we are going to write a Python program which can generate a network
 
 The simple command line interface to interact with nodes in network.
 
--**TCLink**
+- **TCLink**
+
+Link with symmetric TC interface configured via opts.
+
+- **Mininet**
+
+Network emulator.
+
+- **Topo**
+
+For network representation.
+
+- **OVSController**
+
+Open vSwitch controller.
+
+- **dumpNodeConnections**
+
+Display information of switches and hosts.
 
 
 ### iPerf Commands

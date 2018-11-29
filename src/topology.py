@@ -6,7 +6,6 @@ from mininet.topo import Topo
 from mininet.node import OVSController
 from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
-from mininet.log import setLogLevel
 
 class mytopo(Topo):
 
