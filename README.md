@@ -26,7 +26,7 @@ In this lab, we are going to write a Python program which can generate a network
 >    Finally, we can create this topoloty by "topo = mytopo", and than create a network with a OVS controller and use TCLink by using mininet build in function "net = mininet = (topo = topo, controller = OVSController, link = TCLink)". So far, we have create a network with my own topology we can start it with the commend "net.start()", and we can dump the information of switches and hosts by those two command "dumpNodeConnections(net.switches)" and "dumpNodeConnections(net.hosts)". Finally, we want to enter CLI mode, so call the command "CLI(net)" at the end of the code.
 > * Screenshot of using iPerf command in Mininet
 >
->  !(https://github.com/nctucn/lab2-Hong-Ming/blob/master/Screen%20Shot%202018-11-29%20at%204.35.08%20PM.png)
+>  ! [alt text] (https://github.com/nctucn/lab2-Hong-Ming/blob/master/Screen%20Shot%202018-11-29%20at%204.35.08%20PM.png)
 > /Users/hongming/Documents/git/Network_Topology/Screen Shot 2018-11-29 at 4.38.02 PM.png
 
 ---
