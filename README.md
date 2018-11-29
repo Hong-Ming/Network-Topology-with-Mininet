@@ -16,7 +16,6 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Execution
 
-> TODO: 
 > * Program execution
 >
 >    First, I have to include some liberary from mininet that will be used in this lab and then define a class "class mytopo(Topo)" for my topology.  In this class, using "build" constructor to construct my own topology, if I want to add a switch, use "switch = self.addSwitch('switchname')", if I want to add a host, use "host = self.addHost('hostname')".
@@ -86,10 +85,7 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Contributors
 
-> TODO:
-> * Please replace "YOUR_NAME" and "YOUR_GITHUB_LINK" into yours
-
-* [YOUR_NAME](YOUR_GITHUB_LINK)
+* [Hong-Ming](https://github.com/Hong-Ming)
 * [David Lu](https://github.com/yungshenglu)
 
 ---
