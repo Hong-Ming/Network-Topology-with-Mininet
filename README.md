@@ -20,7 +20,9 @@ In this lab, we are going to write a Python program which can generate a network
 > * Program execution
 >
 >    First, I have to include some liberary from mininet that will be used in this lab and then define a class "class mytopo(Topo)" for my topology.  In this class, using "build" constructor to construct my own topology, if I want to add a switch, use "switch = self.addSwitch('switchname')", if I want to add a host, use "host = self.addHost('hostname')".
+>
 >    After adding switches and hosts, we can build connections and set bendwidth, delay and loss betweem each node by using "self.addLink(node1, node2, bw = bendwidth, delay = 'delay', loss = loss)".
+>
 >    Finally, we can create this topoloty by "topo = mytopo", and than create a network with a OVS controller and use TCLink by using mininet build in function "net = mininet = (topo = topo, controller = OVSController, link = TCLink)". So far, we have create a network with my own topology we can start it with the commend "net.start()", and we can dump the information of switches and hosts by those two command "dumpNodeConnections(net.switches)" and "dumpNodeConnections(net.hosts)". Finally, we want to enter CLI mode, so call the command "CLI(net)" at the end of the code.
 > * Screenshot of using iPerf command in Mininet
 >
