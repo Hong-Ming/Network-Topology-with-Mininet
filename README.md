@@ -60,30 +60,34 @@ Display information of switches and hosts.
 
 ### iPerf Commands
 
-> TODO:
-> * Describe the meaning of iPerf command you used in detail
+- **h2 iperf -s -u -i 1 > ./out/result &**
+
+-s mean run in server mode, -u mean use UDP connection instead of TCP connection, -i mean set interval, in this case, the interval is set to one. > ./out/result & mean write the output into result.
+
+- **h6 iperf -c 10.0.0.2 -u –i 1**
+
+-c mean run in client mode, in this case client h6 connect to server 10.0.0.2. -u and -i is same as above.
 
 ### Tasks
 
-> TODO:
-> * Describe how you finish this work step-by-step in detail
-
 1. **Environment Setup**
 
+First, login in the sever and then clone the repository from my GitHub account. Test the mininet see if it works, if not, try the command "service openvswitch-switch start".
 
 2. **Example of Mininet**
 
+Change the permission of example.py to highest permission and execute it, if it can't be executed, clean mininet up by using command "mn -c" and try again.
 
 3. **Topology Generator**
 
+Write the python code and execute it. If there are some bugs in the code, try to ping from host to host in mininet to identify if there are some misconnection in netword topology and remember to dump all the informations of switches and hosts so that you can see the detail of each node. 
 
 4. **Measurement**
 
+Measure the network by the commands provided in slide, compare the result with the one in expected folder, if the result is wrong, go back to identify the errors in program and try again.
+
 ---
 ## References
-
-> TODO: 
-> * Please add your references in the following
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
