@@ -29,7 +29,6 @@ In this lab, we are going to write a Python program which can generate a network
 > "dumpNodeConnections(net.switches)" and "dumpNodeConnections(net.hosts)". Finally, we want to enter CLI mode, so call the command 
 > "CLI(net)" at the end of the code.
 > * Screenshot of using iPerf command in Mininet
-
 > /Users/hongming/Documents/git/Network_Topology/Screen Shot 2018-11-29 at 4.35.08 PM.png
 > /Users/hongming/Documents/git/Network_Topology/Screen Shot 2018-11-29 at 4.38.02 PM.png
 
