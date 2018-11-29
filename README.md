@@ -27,7 +27,7 @@ In this lab, we are going to write a Python program which can generate a network
 > * Screenshot of using iPerf command in Mininet
 >
 >  ![alt text](https://github.com/nctucn/lab2-Hong-Ming/blob/master/Screen%20Shot%202018-11-29%20at%204.35.08%20PM.png)
-> /Users/hongming/Documents/git/Network_Topology/Screen Shot 2018-11-29 at 4.38.02 PM.png
+>  ![alt text](https://github.com/nctucn/lab2-Hong-Ming/blob/master/Screen%20Shot%202018-11-29%20at%204.38.02%20PM.png)
 
 ---
 ## Description
