@@ -33,8 +33,10 @@ In this lab, we are going to write a Python program which can generate a network
 
 ### Mininet API in Python
 
-> TODO:
-> * Describe the meaning of Mininet API in Python you used in detail
+- **CLI**
+The simple command line interface to interact with nodes in network.
+-**TCLink**
+
 
 ### iPerf Commands
 
