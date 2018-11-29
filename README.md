@@ -34,7 +34,9 @@ In this lab, we are going to write a Python program which can generate a network
 ### Mininet API in Python
 
 - **CLI**
+
 The simple command line interface to interact with nodes in network.
+
 -**TCLink**
 
 
