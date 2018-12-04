@@ -17,6 +17,8 @@ In this lab, we are going to write a Python program which can generate a network
 ## Execution
 
  * Program execution
+ 
+    I am using topology0.
 
     First, I have to include some libraries from mininet which will be used in this lab and then define a class "class mytopo(Topo)" for my topology.  In this class, using "build" constructor to construct my own topology, To add a switch, use "switch = self.addSwitch('switchname')". To add a host, use "host = self.addHost('hostname')".
 
