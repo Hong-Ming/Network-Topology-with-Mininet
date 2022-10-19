@@ -114,7 +114,7 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Contributors
 
-* [Hong-Ming](https://hong-ming.github.io)
+* [Hong-Ming Chiu](https://hong-ming.github.io)
 * [David Lu](https://github.com/yungshenglu)
 
 ---
